@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+.deletebtn{
+    padding: 8px;
+    background-color: #5DA4A5;
+    color:white;
+    border:none;
+    font-size: 18px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.deletebtn:active{
+    background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.clearspan{
+    margin: 0;
+    background-color: #F3F6F5;
+    color: #5DA5A4;
+    /* line-height: 32px;
+    line-height: 16px; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 950px) {
+    .clearspan{
+        font-size: 12px;
+        font-weight: 12px;
+    }
+    .deletebtn{
+        font-size: 12px;
+    }
+    .clearbtn{
+        font-size: 12px;
+    }
 }

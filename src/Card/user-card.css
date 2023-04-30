@@ -1,0 +1,50 @@
+.button{
+    background-color: #b3f2eb;
+    color: darkcyan;
+}
+.button:hover{
+    background-color:  #5DA4A5;
+    color: white;
+    font-weight: 20px;
+
+}
+.company_text{
+    color:#5DA4A5;
+}
+.text{
+    background-color:  #5DA4A5;
+    color: white;
+}
+.posotion_title:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 950px) {
+    .item_content{
+        position: relative;
+        flex-direction: column;
+    }
+    .logoImg{
+        position: relative;
+        top: -82px;
+        left: -82px;
+        display: block;
+        width: 60px;
+    }
+    .item_wrapper{
+        position: relative;
+        top: -45px;
+    }
+    .item_btn{
+        position: relative;
+        display: block;
+        margin: 0px;
+        left: 0px;
+    }
+    .item_day{
+        margin-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid black;
+    }
+
+}
